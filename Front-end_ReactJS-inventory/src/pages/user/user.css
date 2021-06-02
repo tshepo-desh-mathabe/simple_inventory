@@ -1,0 +1,35 @@
+
+/* dont forget to bootstrap this style */
+.pull-left {
+  margin-right: 25px !important;
+}
+
+.center-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.card-footer {
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+input.active:valid {
+  box-shadow: 0 0 5px 1px green;
+}
+
+input.active:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
